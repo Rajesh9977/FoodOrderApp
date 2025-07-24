@@ -2,14 +2,22 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='bg-orange-500 w-full h-8 flex'>
-      <img></img>
-      <ul className='flex justify-between'>
-        <li>home</li>
-        <li>cart</li>
-        <li>contact</li>
-      </ul>
-    </div>
+    <nav className='bg-red-600 text-white px-6 py-4 shadow-md'>
+        <div className='flex justify-between items-center'>
+            <div className='text-2xl font-bold'>
+                Zomato
+            </div>
+            <ul className='flex space-x-6'>
+                <li className='hover:text-gray-300'>Home</li>
+                <li className='hover:text-gray-300'>Contact</li>
+                <li className='hover:text-gray-300'>About</li>
+                <li className='hover:text-gray-300'>Cart</li>
+
+            </ul>
+
+        </div>
+
+    </nav>
   )
 }
 
